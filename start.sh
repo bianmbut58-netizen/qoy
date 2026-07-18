@@ -8,7 +8,7 @@ export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
 # Hapus dulu kalau sudah ada
-rm -rf /app/qwen-gate
+rm -rf /app/qwengate
 git clone https://github.com/bianmbut58-netizen/qwengate.git /app/qwengate
 cd /app/qwengate
 
